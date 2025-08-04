@@ -4,19 +4,20 @@
   "description": "أدوات مفتوحة المصدر للذكاء الاصطناعي باللغة العربية واللهجات العربية - Open-source Arabic AI utilities for text processing and dialect conversion",
   "main": "index.js",
   "directories": {
-    "test": "test",
+    "__tests__": "__tests__",
     "tools": "tools",
     "utils": "utils"
   },
   "scripts": {
     "test": "jest",
-    "test:manual": "node test/text-cleaner.test.js",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "start": "node index.js",
     "dev": "node --watch index.js",
-    "examples": "node examples/rtl-examples.js",
-    "examples:rtl": "node examples/rtl-examples.js"
+    "example": "node example.js",
+    "examples:cleaner": "node tools/text-cleaner/examples/example.txt",
+    "examples:converter": "node tools/dialect-converter/examples/demo.js",
+    "examples:extractor": "node tools/keyword-extractor/examples/example.txt"
   },
   "repository": {
     "type": "git",
