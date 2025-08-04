@@ -198,3 +198,12 @@ temp-arabic-text/
 *.temp.txt
 *-processed.txt
 *-cleaned.txt
+
+# Development and planning files (private)
+ROADMAP.md
+TODO.md
+NOTES.md
+PLANNING.md
+*.private.md
+development-notes/
+planning-docs/
